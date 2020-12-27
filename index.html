@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container-principal">
+        <header class="imc">
+        <h1>IMC Calculator</h1>
+        </header>
+        <main>
+            <div class="info">
+                <h2>O que é IMC?</h2>
+                <p>O IMC (Índice de Massa Corporal) é um padrão internacional de cálculo da obesidade de um indivíduo adotado pela OMS (Organização Mundial da Saúde). O método, desenvolvido pelo belga Lambert Quételet no fim do século XIX, é a forma mais fácil de saber se uma pessoa está com o peso ideal ou não.</p>
+
+                <p>O número final representa o quanto a pessoa tem de massa muscular + massa de gordura + massa óssea.</p>
+            </div>
+            <div class="container">
+                <h2>Calcule seu IMC</h2>
+
+                    <div class="input"> 
+                        <label>Nome</label> 
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="input">
+                        <label>Peso</label>
+                        <input type="number" id="peso">
+                    </div>
+                    <div class="input">
+                        <label>Altura</label>
+                        <input type="number" id="altura">
+                    </div>
+
+                    <button type="button" id="calcular">Calcular</button>
+
+                <div class="resultado" id="resultado">
+
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
